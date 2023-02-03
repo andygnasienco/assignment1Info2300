@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <style>
+    .button {background-color: #008CBA;} /* Blue */
+    </style>
+    </head>
+    <body>
+
+    <h2>Colour Change</h2>
+
+    <p>Press the button to change the Colour</p>
+
+    <button onclick="changeButton()" class="button" id="button">Blue</button>
+
+    <script>
+
+        function changeButton(){
+            if (document.getElementById("button").innerText == "Blue"){
+                document.getElementById("button").innerText = "Green";
+                document.getElementById("button").style.backgroundColor = '#00FF00';
+            }
+            else {
+                document.getElementById("button").innerText = "Blue";
+                document.getElementById("button").style.backgroundColor = '#008CBA';
+            }
+        }
+    </script>
+
+    </body>
+</html>
+
