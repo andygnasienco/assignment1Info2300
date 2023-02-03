@@ -13,7 +13,3 @@ Assignment 1 Bitbucket / Github
 
 This is a very simple project using simple code and it is not a part of a confidental project, therefore I do not see a 
 reason why I should have many restrictions on what is done with this code.
-
-########### REVERT THIS ###########
-
-REVERT
